@@ -32,6 +32,12 @@
                     </tableView>
                     <navigationItem key="navigationItem" title="To-Do App" id="RVt-FR-Kc2">
                         <barButtonItem key="backBarButtonItem" title="sd" id="ffY-1a-nd4"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="zjd-CZ-NRn">
+                            <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <connections>
+                                <action selector="addItemAction:" destination="ApU-pd-7Iu" id="EkB-o7-tE2"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="N2E-p3-mgS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
