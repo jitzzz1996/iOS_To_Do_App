@@ -30,7 +30,9 @@
                             <outlet property="delegate" destination="ApU-pd-7Iu" id="oW6-sy-zqV"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="To-Do App" id="RVt-FR-Kc2"/>
+                    <navigationItem key="navigationItem" title="To-Do App" id="RVt-FR-Kc2">
+                        <barButtonItem key="backBarButtonItem" title="sd" id="ffY-1a-nd4"/>
+                    </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="N2E-p3-mgS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
